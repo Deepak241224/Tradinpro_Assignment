@@ -131,13 +131,19 @@
     height: 100%;
 }
 .syd{
-    color: white;
-    text-shadow: 2px 2px 20px red;
+    padding: 0px 5px;
+    background-color: black;
+    top: 71%;
+    position: absolute;
+}
+.sydd{
     font-size: 30px;
     font-weight: bolder;
-    position: absolute;
-    top: 40%;
-    left: 40%;
+    text-decoration: none;
+    color:white;
+}
+.sydd:hover{
+    color: white;
 }
 .partner{
     background-color: #dae1e7;
@@ -151,4 +157,28 @@
 }
 .an{
     margin-bottom: 50px;
+}
+@media (max-width:800px)
+{
+    .img{
+         margin-left: 0%;
+    }
+    .syd{
+        top: 79%;
+    }
+    .sydd{
+        font-size: 15px;
+    }
+    .amp{
+        width: 15%;
+        margin-bottom: 15px;
+    }
+    .hun{
+        width: 23%;
+        margin-bottom: 15px;
+    }
+    .green{
+        width: 20%;
+        margin-bottom: 15px;
+    }
 }
